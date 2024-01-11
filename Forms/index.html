@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms in html</title>
+
+</head>
+
+<body>
+    <h1>College application form </h1>
+    <form action="post">
+        <div>
+            <label for="username"> Enter your name</label>
+            <input type="text" id="username" name="username" placeholder="Enter your name">
+        </div>
+        <div>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male"> Male</label>
+            <input type="radio" id="Female" name="gender" value="Female">
+            <label for="Female"> Female</label>
+        </div>
+        <div>
+            <input type="checkbox" id="newsletter" name="newsletter" value="Subscribe to the news letter">
+            <label for="newsletter">Subscribe to our news letter</label>
+        </div>
+        <br>
+        <div>
+
+            <label for="comment">Enter your feedback here</label>
+            <br>
+            <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
+        </div>
+
+        <div>
+            <select name="locations" id="locations">
+                <option value="Frankfurt">Frankfurt</option>
+                <option value="Darmstadt">Darmstadt</option>
+                <option value="Darmstadt">Berlin</option>
+            </select>
+        </div>
+
+    </form>
+</body>
+
+</html>
